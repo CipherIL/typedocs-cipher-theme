@@ -1,0 +1,28 @@
+{
+  "name": "typedocs-cipher-theme",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "A theme for typedocs",
+  "scripts": {
+    "build": "tsc",
+    "sass": "sass src/styles/index.scss dist/main.css",
+    "dev": "npm run build && npm run sass"
+  },
+  "keywords": [
+    "typedoc-theme",
+    "Cipher"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "sass": "^1.59.3",
+    "@types/node": "^18.15.3"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "peerDependencies": {
+    "typedoc": "^0.23.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

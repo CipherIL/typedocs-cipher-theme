@@ -1,0 +1,7 @@
+@use 'sass:list';
+
+$_gray: (#F8F9FA, #E9ECEF, #DEE2E6, #CED4DA, #ADB5BD, #6C757D, #495057, #353A40, #212529);
+
+@function gray($i) {
+  @return #{list.nth($_gray, $i)}
+}
